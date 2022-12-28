@@ -1,0 +1,24 @@
+.nav{
+  margin-top: 10px;
+  &__list{
+    @include flex_v_center;
+  }
+
+&__item{
+  &:not(:last-child){
+    margin-right: 50px;
+  }
+}
+  &__link{
+    width: 49px;
+    height: 17px;
+    top: 51px;
+    color: #333333;
+
+    font-family: 'MontBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}

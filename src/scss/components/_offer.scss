@@ -1,0 +1,143 @@
+.main-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.statistic{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.statistic-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__number{
+    height: 63px;
+
+    font-family: 'MontLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 63px;
+    line-height: 100%;
+
+    color: #333333;
+  }
+
+  &__text{
+    width: 160px;
+    height: 32px;
+
+    font-family: 'MontBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+
+    color: #888888;
+  }
+}
+
+.stats-main-text{
+  font-family: 'MontBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+
+  color: #333333;
+}
+.offer{
+  width: 570px;
+  height: 277px;
+
+  &__nametext_block{
+    margin-top: 100px;
+    width: 567px;
+    height: 80px;
+  }
+
+  &__text_block{
+    width: 426px;
+    height: 22px;
+
+  }
+
+
+  &__text_mini_block
+  {
+    width: 453px;
+    height: 45px;
+    margin-top: 20px;
+  }
+
+  .nametext{
+    font-family: 'MontBlack';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100%;
+    background: linear-gradient(102.37deg, #FBFF32 0%, #FF961C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text{
+    font-family: 'MontBlack';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333333;
+  }
+
+  .text_mini
+  {
+    font-family: 'MontBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #333333;
+  }
+
+  .offer_btns{
+    margin-top: 50px;
+
+    &__give_btn{
+      width: 240px;
+      height: 60px;
+      background:
+        linear-gradient(to right, #FBFF32, #FF961C) border-box;
+      border-radius: 50em;
+      border: 2px solid transparent;
+    }
+
+    &__get_btn{
+      margin-left: 20px;
+      width: 240px;
+      height: 60px;
+      background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #FBFF32, #FF961C) border-box;
+      border-radius: 50em;
+      border: 2px solid transparent;
+    }
+  }
+
+  .give-get_btn_text{
+    font-family: 'MontBlack';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #333333;
+  }
+}

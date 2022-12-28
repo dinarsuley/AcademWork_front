@@ -1,0 +1,59 @@
+.header{
+  &__container{
+    @include flex-all-sb;
+  }
+  &__logo-text{
+    color: #333333;
+  }
+}
+
+.logo{
+  @include flex-all-sb;
+  width: 284px;
+  height: 62px;
+}
+
+.line{
+  margin-top: 17px;
+  width: 30px;
+  height: 0px;
+  border: 1px solid #E0E0E0;
+  transform: rotate(90deg);
+}
+
+.logo-text{
+  width: 94px;
+  height: 28px;
+  margin-top: 15px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.sign{
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 50px;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FBFF32, #FF961C) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+
+  &__lk{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #333333;
+  }
+}
+
